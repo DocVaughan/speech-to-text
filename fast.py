@@ -1,6 +1,7 @@
 import os
 import speech_recognition as sr
 from tqdm import tqdm
+import glob
 from multiprocessing.dummy import Pool
 pool = Pool(8) # Number of concurrent threads
 
@@ -8,11 +9,15 @@ with open("api-key.json") as f:
     GOOGLE_CLOUD_SPEECH_CREDENTIALS = f.read()
 
 r = sr.Recognizer()
-files = os.listdir('parts/')
+
+
+files = glob.glob('parts/*.wav') # Use glob to only get .wav files
+files = sorted(files)
 
 def transcribe(data):
     idx, file = data
-    name = "parts/" + file
+#     name = "parts/" + file
+    name = file # Changed to accomodate glob pattern matching on filename, which includes directory 
     print(name + " started")
     # Load audio file
     with sr.AudioFile(name) as source:

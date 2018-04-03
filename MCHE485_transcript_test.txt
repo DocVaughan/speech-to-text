@@ -1,0 +1,41 @@
+00:00:00 okay so today we're going to spend the whole time we have working some example problems it will do is do the thing where you guys going to set it up and it will review it give you some pie instant feedback on your setup process before we get started on that any general Pi level questions about what Thursday is going to look like 
+
+00:00:30 you guys doing the first part of the homework chapter 2 if there's an X and Y and it doesn't always mean that's correct because what you're saying a lot of the problems that we worked from chapter all of them before chapter 4 effectively with the exception of a few in chapter 1 or single degree of Freedom you had an input that why but you're defining that exactly so it's it's 
+
+00:01:00 not a degree of freedom of the system in that you know it for every instant of time if you're not trying to model that input you're trying to model the response to the mass and you can describe the presponse of the mass of the pendulum with one variable yes for 8 
+
+00:01:30 it's like 3 blocks every spider 48231 sure so let me let's work this problem and see if that helps you with that one cuz we're going to do that a few for a few these problems the khazar K1 and K2 
+
+00:02:00 other kind of high-level questions the problem 2 6 1 it says that y1 so, so what generates we want to do any 
+
+00:02:30 so they've given us a white one and they get some number 
+
+00:03:00 no problem we just you know why one bar then put the white one in Omega one just the input frequency and I say well we want is how we have to move why too so that there's no net force on this Mass so you want the damper that's easy and K1 and K2 or equal that's easy right opposite 
+
+00:03:30 so it's a little bit more complicated I think the first episode this or to get the equation of motion so let's try to get there and then in the process of this form to cancel. So the main problem with say 
+
+00:04:00 part 2 of the problem to write these and state space form so why don't we I said I want a current maybe try to do where you guys at the problem get it going and then we can check in you can spend some feedback on your understanding so let's take a few minutes or set this one up at least okay let's check in for the second going to force to do I have on the mats spring and damper 
+
+00:04:30 what else other spring that's really always does it matter which way you draw the arrows no as long as you're consistent 
+
+00:05:00 I work in this both ways but I feel like I watched it confuse more people than it will help so what I did here to get my arrows as I held him fixed and pushed on each input independently that fix and pushed on this spring and damper going to be pushing that way Elvis fixing pull on that so from that 
+
+00:05:30 Westside right side if you how we draw the arrows you have to match the magnitude of that to the arrow so for spring worth it to get the force in that direction why one has to be bigger than x and then 
+
+00:06:00 get the Spring Ride the damper should just follow it's in parallel for this fourth to be in that direction why to has to be bigger than x to be pulling on it then we can collect terms 
+
+00:06:30 why one. Yes players are equation of motion with terms collected 
+
+00:07:00 so if your checks this is a great emotion make sense is it a stable equation of motion yes we got all positive signs over here so we're stable so if you get a negative sign showing up equation you might want to check these directions that's kind of a check for you 
+
+00:07:30 let's look at part 1 first so we won't no net forces acting on if this is true what we know about the motion of him like I move so let's rewrite this guy 
+
+00:08:00 it was not moving what part of what part of this equation go away that's going to go away that goes away and if we're going to be about it goes way too 
+
+00:08:30 Personnel Statics problem now would you happen to have inputs that are movie so we know then that Hawaii 2 Steve Cole Martinez 
+
+00:09:00 island of course you can plug it in yeah so this is kind of one of those cases of normal would use this technique a lot right just assume that what you want to be true is true and then see if the math works out to support it actually being true so if we assume that this is true and no one that forces acting on them 
+
+00:09:30 it's not moving you can figure that out for us so okay I'm so lost acceleration of 0 and because of how we Define actually said well that's just sitting at equilibrium place so actually zero we are just kind of though hey the white part of those spring forces effectively or was going to have to balance next stop moving I get to stare 
+
+00:10:00 okay sofa part 2 given this equation of motion what we take 2 minutes and you guys try to put it in the states it's more okay so you want to just step first step to figure out what you want your steaks to be to you as a reminder to see that in 
